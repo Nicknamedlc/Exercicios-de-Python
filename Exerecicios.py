@@ -35,3 +35,17 @@ def ex6(text):
     text = text.lower()
     textR = text[::-1]
     return text == textR
+def ex7(list):
+    return [num for num in list if num %2==0]
+def ex8(jog1, jog2):
+    jog1 = jog1.lower()
+    jog2 = jog2.lower()
+    if jog1 == jog2:
+        return "empate"
+    else:
+        if (jog1 == "tesoura" and jog2 == "pedra") or (jog1 == "pedra" and jog2 == "tesoura"):
+            return "Pedra ganha de tesoura"
+        elif (jog1 == "tesoura" and jog2 == "papel") or (jog1 == "papel" and jog2 == "tesoura"):
+            return "Tesoura ganha de papel"
+        else:
+            return "Papel ganha de pedra"
