@@ -48,5 +48,5 @@ def test_ex6():
 
 def test_ex7():
     assert Exerecicios.ex7([1, 2, 3, 4, 5, 6, 7, 8]) == [2, 4, 6, 8]
-def test_ex8():
-    assert Exerecicios.ex8("Tesoura", "Papel") == "Tesoura ganha de papel"
+
+# exercicio 8 foi testado no main
